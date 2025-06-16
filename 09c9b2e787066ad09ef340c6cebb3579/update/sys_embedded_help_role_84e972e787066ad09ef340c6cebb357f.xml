@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_cabs4_smart_appr.approval" name="x_cabs4_smart_appr.approval">0ce972e787066ad09ef340c6cebb357d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-16 17:26:25</sys_created_on>
+        <sys_id>84e972e787066ad09ef340c6cebb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0ce972e787066ad09ef340c6cebb357d</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sys_embedded_help_role_84e972e787066ad09ef340c6cebb357f</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-16 17:26:25</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

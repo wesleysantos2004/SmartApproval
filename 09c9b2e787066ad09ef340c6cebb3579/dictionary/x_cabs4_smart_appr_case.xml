@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b37abe6b87066ad09ef340c6cebb3543" extends="task" label="CASE" max_length="40" name="x_cabs4_smart_appr_case" type="collection"/>
+</database>
