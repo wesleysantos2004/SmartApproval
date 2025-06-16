@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Fluxo de aprovação J&amp;J</description>
+        <device_type>browser</device_type>
+        <hint>Fluxo de aprovação J&amp;J</hint>
+        <name/>
+        <order/>
+        <roles>x_cabs4_smart_appr.admin,x_cabs4_smart_appr.user,x_cabs4_smart_appr.approval</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-16 17:29:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa9a32ab87066ad09ef340c6cebb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sys_app_application_fa9a32ab87066ad09ef340c6cebb35fe</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-16 17:29:35</sys_updated_on>
+        <title>Smart Approval</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
