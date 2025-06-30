@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <semantic_tag/>
+        <size>3</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">1e0c26a487562ed092dd4225dabb35f7</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 18:59:52</sys_created_on>
+        <sys_id>160c66a487562ed092dd4225dabb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sp_column_160c66a487562ed092dd4225dabb3500</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 18:59:52</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</application>
+        <file_path/>
+        <instance_id>6546f998db2b33804d2bac44d496196c</instance_id>
+        <instance_name>capgeminibrasilsademo2</instance_name>
+        <name>sp_column_160c66a487562ed092dd4225dabb3500</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><semantic_tag/><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">1e0c26a487562ed092dd4225dabb35f7</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>wesley.santos</sys_created_by><sys_created_on>2025-06-19 18:59:52</sys_created_on><sys_id>160c66a487562ed092dd4225dabb3500</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package><sys_policy/><sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope><sys_update_name>sp_column_160c66a487562ed092dd4225dabb3500</sys_update_name><sys_updated_by>wesley.santos</sys_updated_by><sys_updated_on>2025-06-19 18:59:52</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>2020275955</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>446cb6ef87066ad09ef340c6cebb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 18:59:52</sys_created_on>
+        <sys_id>920c66a487562ed092dd4225dabb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197898fcd8a0000001</sys_recorded_at>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 18:59:52</sys_updated_on>
+        <type>Column</type>
+        <update_guid>560c66a4c6562ed0605821296f4bdc01</update_guid>
+        <update_guid_history>560c66a4c6562ed0605821296f4bdc01:2020275955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">816c6ae487562ed092dd4225dabb35df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 19:01:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0a0a9ab98dc34f7a98f5062190a619a4</sys_id>
+        <sys_metadata>160c66a487562ed092dd4225dabb3500</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_scope_delete display_value="">0336cc9e590544e4801ddd1be38f9d10</sys_scope_delete>
+        <sys_update_name>sp_column_160c66a487562ed092dd4225dabb3500</sys_update_name>
+        <sys_update_version display_value="sp_column_160c66a487562ed092dd4225dabb3500">920c66a487562ed092dd4225dabb3502</sys_update_version>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:01:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

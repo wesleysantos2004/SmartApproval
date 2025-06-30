@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="844f8fb7879e621092dd4225dabb35f4" sys_domain="global" table="x_cabs4_smart_appr_case" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>ff7f0bf7879e621092dd4225dabb35ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">cccd4bf3879e621092dd4225dabb35a3</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>ff7f0bf7879e621092dd4225dabb35ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>777f0bf7879e621092dd4225dabb35ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>fb7f0bf7879e621092dd4225dabb35ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>4</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>737f0bf7879e621092dd4225dabb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>f77f0bf7879e621092dd4225dabb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>377f0bf7879e621092dd4225dabb35fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>7</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>bb7f0bf7879e621092dd4225dabb35fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>8</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>337f0bf7879e621092dd4225dabb35fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:55:03</sys_created_on>
+            <sys_id>b77f0bf7879e621092dd4225dabb35fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:55:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cabs4_smart_appr_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:53:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>844f8fb7879e621092dd4225dabb35f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cabs4_smart_appr_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+            <sys_update_name>sys_ui_section_844f8fb7879e621092dd4225dabb35f4</sys_update_name>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:53:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

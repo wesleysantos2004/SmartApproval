@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>sc</category>
+        <client_script><![CDATA[function ($scope, spUtil, $window, $sce, $timeout, spAriaUtil) {
+	function isRefreshNeededForChanges(changes) {
+		var isNeeded = changes.length > 0 && !(
+			changes.length == 1 && (
+				changes[0] == 'comments' || changes[0] == 'work_notes' || changes[0] == 'task_percent_complete'
+			)
+		);
+		return isNeeded;
+	}
+	var c = this;
+	if (c.data.is_new_order) {
+		$timeout(function() {
+			spAriaUtil.sendLiveMessage(c.data.requestSubmitMsg);
+		}, 500);
+
+	}
+	c.showMore = c.showControls = false;
+	fieldsCount = 0; // actual fields that will be rendered
+	angular.forEach(c.data.fields, function(field) {
+		if (field.type !== 'workflow' && (field.type !== 'decimal' || field.value != 0))
+				fieldsCount++;
+	});
+	if (fieldsCount > 3)
+		c.showMore = c.showControls = true;
+	c.data.currentActionWidget = $scope.data.actionWidget;
+	spUtil.recordWatch($scope, $scope.data.table, "sys_id=" + $scope.data.sys_id, function(name) {
+		if (isRefreshNeededForChanges(name.data.changes)) {
+			c.data.currentActionWidget = null;
+			$scope.server.get().then(function(response) {
+				if (!_.isEqual(c.data, response.data))
+					_.assign(c.data, response.data);
+				c.data.currentActionWidget = response.data.actionWidget;
+				if (c.data.isFocusRequired)
+					c.data.currentActionWidget.isFocusRequired = c.data.isFocusRequired;
+			});
+		} else {
+			c.server.get().then(function(response) {
+						c.data.headerFields = response.data.headerFields;
+					});
+		}
+	});
+	$scope.$on('focusOnActions', function(evt, data) {
+		 c.data.isFocusRequired = data.isFocusRequired;
+		});
+
+	$scope.hideMessage = function($scope) {
+		c.hide = true;
+	}
+	$scope.openProfile = function(profileId) {
+		if(!$scope.data.isExternalUser) {
+		$window.open('?id=user_profile&sys_id=' + profileId, '_blank');
+		}
+	};
+	if ($scope.data.description)
+		$scope.description = $scope.data.description.type == 'html' ? $sce.trustAsHtml($scope.data.description.display_value) : $scope.data.description.display_value;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>$sp-space--sm: 8px !default;
+            $sp-space--xxs: 2px !default;
+            .options-btn {
+            border:none;
+            background-image:none;
+            background-color:transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            color: $brand-primary;
+            padding: 0px !important;
+            padding-top: 10px !important;
+            }
+
+            .options-btn:focus {
+            outline-offset: 0px;
+            }
+
+            .action-btn {
+            margin-left: auto;
+            }
+
+            .pre-wrap {
+            white-space: pre-wrap;
+            }
+
+            .flex-display {
+            display: flex;
+            align-items: center;
+            }
+
+            .title-padding {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            }
+
+            .ticket-fields {
+            margin-left: -7px;
+            margin-right: -($sp-space--sm);
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+
+            }
+
+            .adjust-height {
+            min-height: 45px;
+            margin-bottom: 1%;
+            }
+
+            .grid{
+            grid:auto / auto auto;
+            display:grid;
+            }
+
+            .centre{
+            margin-bottom: auto;
+            margin-top: auto;
+            }
+
+            #wrapper {
+
+            display: flex;
+            align-items: center;
+            margin: auto;
+            }
+
+            .size{
+            margin: 0px !important;
+            }
+
+            hr{
+            margin: 0px !important;
+            }
+
+            .padder-md-r {
+            padding-right: 20px !important;
+            }
+
+            .padding-sm {
+            padding-left: 10px;
+            }
+
+            .avatar-container {
+            margin-top: $sp-space--xxs;
+            margin-right: $sp-space--xxs;
+            }
+
+            .header-text {
+            padding-left: 10px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            display: block;
+            margin-bottom: 0px;
+            }
+
+            .label-color {
+            color: $gray;
+            }
+
+            .alert-text {
+            font-weight: normal !important;
+            text-decoration: underline;
+            }
+
+            .notification-icon {
+            margin-right: $sp-space--xxs;
+            }
+
+            .header-text &gt; .tooltip {
+            left: 10px !important;
+            }
+            .align-tooltip &gt; .tooltip {
+            left: 50px !important;
+            }
+            @media only screen and (max-width : 767px) {
+            .show-less &gt; div:nth-child(n+4) {
+            display : none !important;
+            }
+
+            .text-whitespace div &gt; span {
+            white-space: normal !important;
+            }
+
+            .text-whitespace div &gt; p {
+            white-space: normal !important;
+            }
+            .show-more-controls {
+            padding: 0 !important;
+            margin-left: 1.5rem !important;
+            }
+
+            .show-more-controls &gt; span {
+            padding-left: 1rem !important;
+            }
+            }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Provides the header section for any standard ticket</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of Standard Ticket Header</name>
+        <option_schema>[{"name":"pickup_msg","section":"Presentation","label":"Pickup message","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[(function(){
+	var tableName = $sp.getParameter('table');
+
+	var sysId = $sp.getParameter('sys_id');
+	var record = sn_std_tkt_api.TicketConfig.getTicketRecord(tableName, sysId);
+	data.isExternalUser = !gs.hasRole('snc_internal');
+	data.is_new_order = (($sp.getParameter("is_new_order") + '') === "true");
+
+	data.canRead = hasReadAcces(record);
+	if (!data.canRead)
+		return;
+
+	if ($sp.getParameter('headless') == 'true')
+		data.headless = true;
+	else if ($sp.getParameter('headless') == 'false')
+		data.headless = false;
+	else if ($sp.getParameter('headless') == null)
+		data.headless = false;
+	else
+		return;
+
+	if (data.headless)
+		data.hideHeader = true;
+
+	tableName = record.getTableName();
+	sysId = record.getUniqueValue();
+
+	var sdField;
+	var headerFields = [];
+	var showDomainState = false;
+
+	//URL has domain table
+	if (tableName != 'universal_request') {
+		//Check if universal_request field is present and it is a universal request
+		if (record.isValidField('universal_request') && !record.universal_request.nil()) {
+			data.urLink = '?id=standard_ticket&table=universal_request&sys_id=' + record.universal_request.sys_id;
+			var ur = sn_std_tkt_api.TicketConfig.getTicketRecord('universal_request', record.universal_request);
+			if (!hasReadAcces(ur)) {
+				readHeaderFields(record);
+				showDomainState = true;
+			}
+			else {
+				data.number = $sp.getField(ur, 'number');
+				headerFields.push($sp.getField(ur, 'sys_created_on'));
+				headerFields.push($sp.getField(record, 'sys_updated_on'));
+				headerFields.push($sp.getField(ur, 'state'));
+				sdField = $sp.getField(ur, 'short_description');
+			}
+			//URL-non primary ticket
+			if (record.universal_request.primary_task != record.sys_id)
+						data.primary_ticket_link = '?id=standard_ticket&table=universal_request&sys_id=' + record.universal_request;
+		}
+		//It is a domain ticket
+		else {
+			readHeaderFields(record);
+			showDomainState = true;
+		}
+ }
+  //URL-Table name is universal request
+	else {
+		//Domain ticket is created
+		if (!record.primary_task.nil()) {
+			data.urLink = '?id=standard_ticket&table=universal_request&sys_id=' + record.sys_id;
+			var primary_table = record.primary_task.getRefRecord().getTableName();
+			var primaryGR = sn_std_tkt_api.TicketConfig.getTicketRecord(primary_table, record.primary_task + '');
+			data.canReadPrimary = hasReadAcces(primaryGR);
+			if (!data.canReadPrimary) {
+				readHeaderFields(record);
+				record = sn_std_tkt_api.TicketConfig.getTicketRecord(primary_table, record.primary_task);
+			}
+			else { //can read primary ticket
+				sdField = $sp.getField(record, 'short_description');
+				data.number = $sp.getField(record, 'number');
+				headerFields.push($sp.getField(record, 'sys_created_on'));
+				headerFields.push($sp.getField(primaryGR, 'sys_updated_on'));
+				headerFields.push($sp.getField(record, 'state'));
+
+				record = sn_std_tkt_api.TicketConfig.getTicketRecord(primary_table, record.primary_task);
+				tableName = record.getTableName();
+				sysId = record.getUniqueValue();
+			}
+		}
+		//No domain ticket assigned
+		else
+			readHeaderFields(record);
+	}
+
+	if (sdField == null || !sdField.value) {//Use number if SD is not there
+		data.isEmpty = true;
+		sdField = data.number;
+	}
+
+	data.title = sdField ? sdField.display_value : record.getLabel();
+	data.headerFields = headerFields;
+	data.requestSubmitMsg = gs.getMessage("Thank You. Your request {0} has been submitted." , data.number ? data.number.display_value : "");
+
+	data.canReadConfig = hasReadAcces(record);
+	if (!data.canReadConfig)
+		return;
+
+	var config = sn_std_tkt_api.TicketConfig.getConfig(tableName, record.sys_domain);
+
+	if (config) {
+		if (showDomainState && config.state_field != 'state') {
+			var configState = $sp.getField(record, config.state_field);
+			headerFields.forEach(function(field, index, that) {
+				if (field.name == 'state') {
+					that[index] = configState;
+				}
+			})
+		}
+		data.show_info_widget = config.show_info_widget;
+		if (!data.show_info_widget)
+			showConfigTicketFields (config, record);
+		else
+			showTicketWidget(config, tableName, sysId);
+
+		data.table = tableName;
+		data.sys_id = sysId;
+
+		showActionWidget(config, tableName, sysId);
+		var descriptionField = config.description_field || 'description';
+		if (record.isValidField(descriptionField)) {
+			var field = record.getElement(descriptionField);
+			if (field && field.canRead())
+				showDescription(config, record, descriptionField);
+		}
+	}
+
+	function hasReadAcces(record) {
+		return (record != null && record.isValid() && record.canRead());
+	}
+
+	function readHeaderFields(record) {
+		sdField = $sp.getField(record, 'short_description');
+		data.number = $sp.getField(record, 'number');
+		headerFields = $sp.getFields(record, 'sys_created_on, sys_updated_on, state');
+	}
+
+	function showConfigTicketFields(config, record) {
+		var fieldNames = [];
+			if (config.info_fields)
+				fieldNames = config.info_fields.split(',');
+		var fields = [];
+		if (record.getTableName() == 'sc_req_item' && !record.cat_item.nil()) {
+			var catalogItemJS = new sn_sc.CatItem(record.cat_item);
+			var cartItemDetail = catalogItemJS.getItemSummary(true);
+		}
+			fieldNames.forEach(function (fName) {
+				if ((!fName || fName == ''))
+					return;
+
+				var fElement = record.getElement(fName);
+				if (!fElement)
+					return;
+
+				if (!fElement.canRead())
+					return;
+
+				if(fName == 'recurring_price' && record.recurring_frequency.nil())
+					return;
+
+				if (fName == 'price' || fName == 'recurring_price') {
+					var showPrice = canShowPrice(catalogItemJS, record.getValue(fName));
+					if (!showPrice)
+						return;
+				}
+				var hideQuantity = (fName == 'quantity') && !cartItemDetail.show_quantity;
+				if (hideQuantity)
+					return;
+
+				var type = fElement.getED().getInternalType();
+				if (type == 'glide_list')
+					loadGlideListFieldInfo(fElement, fName, type, record, fields);
+				else if (type == 'workflow')
+					loadWorkflowFieldInfo(fElement, fName, type, record, fields);
+				else {
+					var f = {
+						display_value: (fName == 'recurring_price' && !record.recurring_frequency.nil()) ? (fElement.getDisplayValue() + " " + record.getDisplayValue('recurring_frequency')) : fElement.getDisplayValue(),
+						label: fElement.getLabel(),
+						name: fElement.getName(),
+						type: type,
+						value: (fName == 'sys_updated_on' && record.getValue("sys_mod_count") <= 0) ? '' : fElement.toString()
+					};
+
+					if (!f.value)
+						return;
+
+					if (type == 'reference') {
+						var reference = fElement.getReferenceTable();
+						var grs = new GlideRecordSecure(reference);
+						if (!(grs.get(f.value) && grs.getDisplayName() && grs.getValue(grs.getDisplayName())))
+							return;
+						
+						f.reference = reference;
+
+						if (reference == 'sys_user') {
+							f.user = {
+								userID: f.value,
+								name: f.display_value,
+								avatar: GlideAvatarFinder.getAvatarPath(f.value),
+								initials: buildInitials(f.display_value)
+							}
+						}
+					}
+					fields.push(f);
+				}
+			});
+
+			data.fields = fields;
+	}
+
+	function loadGlideListFieldInfo(fElement, fName, type, record, fields) {
+		var val = fElement.toString();
+		var f = {
+			display_value: fElement.getDisplayValue() ? fElement.getDisplayValue().split(",") : '',
+			label: fElement.getLabel(),
+			type: type,
+			value: val ? val.split(",") : '',
+			reference: fElement.getED().getReference()
+		};
+		if (!f.value)
+			return;
+
+		var gReference = fElement.getED().getReference();
+		if (gReference == 'sys_user') {
+			f.user = [];
+			for(var u = 0; u < f.value.length; u++){
+				f.user.push(person = {
+					userID: f.value[u],
+					name: f.display_value[u],
+					avatar: GlideAvatarFinder.getAvatarPath(f.value[u]),
+					initials: buildInitials(f.display_value[u])
+				})
+			}
+		}
+		fields.push(f);
+	}
+
+	function loadWorkflowFieldInfo(fElement, fName, type, record, fields) {
+		var f = {
+			display_value: fElement.getDisplayValue(),
+			label: fElement.getLabel(),
+			type: type,
+			value: fElement.toString()
+		};
+		f.stageWidget = $sp.getWidget('request_item_workflow_stages', {req_item_id: sysId});
+		fields.push(f);
+	}
+
+	function showTicketWidget(config, tableName, sysId) {
+		var widgetParam = config.info_widget_param
+			if (widgetParam)
+				widgetParam = JSON.parse(widgetParam)
+			else
+				widgetParam = {};
+
+			widgetParam.table = tableName;
+			widgetParam.sys_id = sysId;
+
+			data.info_widget = $sp.getWidget(config.info_widget, widgetParam);
+	}
+
+	function showActionWidget(config, tableName, sysId) {
+		var widgetParam = config.action_widget_param
+		if (widgetParam)
+			widgetParam = JSON.parse(widgetParam)
+		else
+			widgetParam = {};
+
+		widgetParam.table = tableName;
+		widgetParam.sys_id = sysId;
+
+		data.actionWidget = $sp.getWidget(config.action_widget, widgetParam);
+	}
+
+	function setDescription(record, descriptionField) {
+		var description = $sp.getField(record, descriptionField);
+		if (description) {
+			data.description = {
+				'type' : description.type,
+				'display_value' : description.display_value
+			};
+		}
+	}
+
+	function showDescription(config, record, descriptionField) {
+		if (config.show_description == 'always')
+			setDescription(record, descriptionField);
+
+		else if (config.show_description == 'no_variable') {
+			var variables = record.variables.getElements(true);
+			if (variables.length == 0)
+				setDescription(record, descriptionField);
+
+		}
+	}
+
+	function buildInitials(name) {
+		if (!name)
+			return "--";
+
+		var initialMatchRegex = /^[A-ZÀ-Ÿ]|^[\u3040-\u309f]|^[\u30a0-\u30ff]|^[\uff66-\uff9f]|^[\u4e00-\u9faf]/;
+		// Included Hiragana, Katakana, CJK Unified Ideographs and Halfwidth and Fullwidth Forms Blocks
+		// Hiragana -> Japanese words, Katakana -> foreign words
+		// CJK Unified Ideographs -> modern Chinese, Japanese, Korean and Vietnamese characters
+
+		var initials = name.split(" ").map(function(word) {
+			return word.toUpperCase();
+		}).filter(function(word) {
+			return word.match(initialMatchRegex);
+		}).map(function(word) {
+			return word.substring(0,1);
+		}).join("");
+		return (initials.length > 3) ? initials.substr(0, 3) : initials;
+	}
+	function canShowPrice(itemJS, price) {
+		return gs.getProperty('glide.sc.item.cannot_show_price', '').split(',').indexOf(itemJS.getRecordClass()) == -1 &&
+			itemJS.read({'omit_price':''}).omit_price != 'true' &&
+			typeof $sp.showPrice == 'function' ? $sp.showPrice(price) : fallbackShowPrice(price);
+	}
+
+	function fallbackShowPrice(price) {
+		if (isNaN(price))
+			return false;
+
+		var showPriceProp = gs.getProperty('glide.sc.price.display', 'always');
+		return (showPriceProp == 'non_zero' && parseFloat(price) <= 0)|| showPriceProp == 'never' ? false : true;
+	}
+})()
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 18:35:27</sys_created_on>
+        <sys_id>6c76e62487162ed092dd4225dabb3566</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Standard Ticket Header</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sp_widget_6c76e62487162ed092dd4225dabb3566</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 18:35:27</sys_updated_on>
+        <template><![CDATA[<div ng-if ="data.canRead && data.headless && data.urLink" class="alert alert-info" ng-class="{'none': c.hide}">
+  <span class="notification-icon icon-info"><span class="sr-only">${Info Message}</span></span>
+  ${Some of these comments were hidden during ticket routing to protect your privacy. Refer to the originating ticket for current status and updates - }
+  <a href={{data.urLink}} class="alert-link alert-text">{{data.number.display_value}}</a>
+  <button type="button" class="close btn-icon icon-cross" aria-label="Close" ng-click="hideMessage()"></button>
+</div>
+<div ng-if="data.canRead && !data.hideHeader">
+  <div ng-if="data.primary_ticket_link" class="alert alert-warning">
+    <span class="notification-icon icon-alert"><span class="sr-only">${Info Message}</span></span>
+    ${The information shown below may have additional updates. To view the latest record, <a href={{data.primary_ticket_link}} class="alert-link alert-text">click here</a>}
+  </div>
+  <div class="panel-body no-padder">
+
+    <div ng-if="!data.isEmpty" class= "form-group pull-left m-n">
+      <span class="label-color m-n text-xs">{{data.number.label}}</span>
+      <div class="form-control no-padder no-border no-bg" id="data.number.name">{{data.number.display_value}}</div>
+    </div>
+
+
+    <div ng-if="data.headerFields.length > 0" class="pull-right">
+      <div class= "form-group inline m-n"
+           ng-if="field.value && (field.type != 'decimal' || field.type == 'decimal' && field.value != 0)"
+           ng-repeat="field in data.headerFields"
+           ng-class="{'padder-md-r': !$last}">
+        <span class="label-color m-n text-xs">{{field.label}}</span>
+        <div ng-switch="field.type">
+          <div ng-switch-when="glide_date_time" title="{{field.display_value}}" class="form-control no-padder no-border no-bg">
+            <sn-time-ago timestamp="field.value"></sn-time-ago>
+          </div>
+          <div ng-switch-default ng-class="{'font-bold': field.name == 'state'}" class="form-control no-padder no-border no-bg">{{field.display_value}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel b">
+
+    <div class="panel-heading bg-primary panel-la-jolla-default clearfix">
+      <div class="flex-display title-padding">
+        <h2 class="inline m-n m-r-sm" style="word-break: break-word;" tabindex="-1" id="short-desc">{{data.title}}</h2>
+        <div ng-if="!data.primary_ticket_link && c.data.currentActionWidget" class="inline pull-right action-btn">
+        	<sp-widget widget="c.data.currentActionWidget" page="{table:data.table, sys_id: data.sys_id}"></sp-widget>
+      	</div>
+      </div>
+
+      <div ng-if="c.data.description" ng-init="c.description_toggle = false">
+        <div ng-if="c.description_toggle" id="description-toggle" aria-hidden="{{!c.description_toggle}}">
+          <h4 class="title-padding break-word" ng-bind-html="description" ng-if="c.data.description.type=='html'"></h4>
+          <h4 class="title-padding break-word pre-wrap" ng-if="c.data.description.type!='html'">{{description}}</h4>
+        </div>
+        <button class="options-btn btn pull-left" id="wrapper" ng-click="c.description_toggle = !c.description_toggle" aria-expanded="{{c.description_toggle}}" aria-controls="description-toggle">
+          <div ng-show="!c.description_toggle">${Show more}</div>
+          <div ng-show="c.description_toggle">${Show less}</div>
+          <span style="font-size: 10px; padding-left:10px" class="glyphicon" ng-class="c.description_toggle ? 'glyphicon-chevron-up' : 'glyphicon-chevron-down'"></span>
+        </button>
+      </div>
+    </div>
+
+    <div ng-if="!data.show_info_widget && data.fields.length > 0">
+      <div class="panel-body">
+        <div class="ticket-fields text-whitespace" ng-class="{'show-less': c.showMore}" ng-if="data.fields.length > 0" id="std-tkt-fields">
+          <div class= "col-md-2 col-sm-3 col-xs-12 break-word adjust-height"
+               ng-if="(field.type != 'decimal' || field.type == 'decimal' && field.value != 0)"
+               ng-repeat="field in data.fields| filter: {type:'!workflow'}">
+            <div ng-switch="field.type">
+              <div ng-switch-when="glide_date_time" title="{{field.display_value}}">
+                <p class="label-color size text-xs header-text">{{field.label}}</p>
+                <span class="padding-sm" ng-if="field.name == 'due_date' || field.name == 'estimated_delivery'" data-toggle="tooltip" title="{{field.display_value}}">{{field.display_value}}</span>
+                <span ng-if="field.name != 'due_date' && field.name != 'estimated_delivery'"><sn-time-ago class="padding-sm" timestamp="field.value"/></span>
+              </div>
+              <div ng-switch-when="glide_list">
+                <p class="label-color size header-text text-xs">{{field.label}}</p>
+                <sn-avatar ng-if="field.reference == 'sys_user' && field.value" ng-repeat="user in field.user" data-toggle="tooltip" title="{{user.name}}" tabindex="0" ng-click="!data.isExternalUser ? openProfile(user.userID) : null" primary="user" enable-tooltip="false" enable-context-menu="true" show-presence="true" ng-style="{'cursor':data.isExternalUser?'default':'pointer'}" ng-attr-role="{{!data.isExternalUser ? 'link' : ''}}"></sn-avatar>
+                <span ng-if="field.reference != 'sys_user' && field.value">
+                  <span  ng-repeat="item in field.display_value"  class="header-text">
+	                  <span data-toggle="tooltip" title="{{item}}">{{item}}</span>
+  	                <span ng-if="!$last">,</span>
+                  </span>
+                </span>
+              </div>
+              <div ng-switch-default ng-if="field.type != 'glide_list'">
+                <sn-avatar ng-if="field.reference == 'sys_user' && field.value" class="pull-left" data-toggle="tooltip" title="{{field.user.name}}" tabindex="0" ng-click="!data.isExternalUser ? openProfile(field.user.userID) : null" primary=field.user enable-tooltip="false" enable-context-menu="true" show-presence="true" ng-style="{'cursor':data.isExternalUser?'default':'pointer'}" ng-attr-role="{{!data.isExternalUser ? 'link' : ''}}"></sn-avatar>
+                <p class="label-color size header-text text-xs">{{field.label}}</p>
+                <span ng-if="field.reference != 'sys_user' && field.value" class="header-text"><span data-toggle="tooltip" title="{{field.display_value}}">{{field.display_value}}</span></span>
+                <span ng-if="field.reference == 'sys_user' && field.value" ng-class="!data.isExternalUser ? 'btn-link' : null" ng-click="!data.isExternalUser ? openProfile(field.user.userID) : null" ng-attr-role="{{!data.isExternalUser ? 'link' : ''}}" ng-style="{'cursor' : data.isExternalUser ? 'default' : 'pointer'}" aria-label="{{field.label}} {{field.display_value}}" class="header-text align-tooltip" data-toggle="tooltip" title="{{field.display_value}}" tabindex="0">{{field.display_value}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="options-btn btn show-more-controls visible-xs adjust-height" ng-click="c.showMore = !c.showMore" aria-expanded="{{!c.showMore}}" aria-controls="std-tkt-fields" ng-if="c.showControls">
+        <span>{{c.showMore? '${Show more}' : '${Show less}' }}</span>
+        <span style="font-size: 10px; padding-left:5px; padding-right:5px" class="glyphicon" ng-class="!c.showMore ? 'glyphicon-chevron-up' : 'glyphicon-chevron-down'"></span>
+      </button>
+      <div ng-repeat="field in data.fields|filter: {type:'workflow'}">
+        <div class="panel-body padder-t-none">
+          <p class="label-color size header-text text-xs">{{field.label}}</p>
+          <div class="padding-sm">
+          <sp-widget widget="field.stageWidget"></sp-widget></div>
+        </div>
+      </div>
+    </div>
+    <div ng-if="data.show_info_widget">
+      <hr>
+      <div class="panel-body">
+        <sp-widget widget= "c.data.info_widget" page="{table:data.table, sys_id: data.sys_id}"></sp-widget>
+      </div>
+    </div>
+  </div>
+</div>
+<div ng-if="!data.canRead || !data.canReadConfig" class="panel">
+  <h3>
+    ${Sorry, either the data doesn't exist or you don't have access}
+  </h3>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6c76e62487162ed092dd4225dabb3566</id>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 18:36:09</sys_created_on>
+        <sys_id>0396e66487162ed092dd4225dabb3574</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 18:36:09</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="account" table="x_cabs4_smart_appr_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <name>x_cabs4_smart_appr_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-17 23:40:20</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>account</sys_name>
+            <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+            <sys_update_name>sys_choice_x_cabs4_smart_appr_case_account</sys_update_name>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-17 23:40:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unimed</label>
+            <language>EN</language>
+            <name>x_cabs4_smart_appr_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-17 23:40:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-17 23:40:20</sys_updated_on>
+            <value>unimed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amil</label>
+            <language>EN</language>
+            <name>x_cabs4_smart_appr_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-17 23:40:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-17 23:40:20</sys_updated_on>
+            <value>amil</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bradesco Seguro</label>
+            <language>EN</language>
+            <name>x_cabs4_smart_appr_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-17 23:40:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-17 23:40:20</sys_updated_on>
+            <value>bradesco_seguro</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

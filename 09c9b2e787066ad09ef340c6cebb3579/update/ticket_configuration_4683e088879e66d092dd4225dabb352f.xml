@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ticket_configuration">
+    <ticket_configuration action="INSERT_OR_UPDATE">
+        <action_widget/>
+        <action_widget_param/>
+        <active>true</active>
+        <advanced>false</advanced>
+        <description_field>number</description_field>
+        <info_fields>priority,case_status,approval,approval_type,country,policy_information,commercial_policy_type,start_date,end_date,commercial_policy_name</info_fields>
+        <info_widget/>
+        <info_widget_param/>
+        <show_description>always</show_description>
+        <state_field>state</state_field>
+        <sys_class_name>ticket_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 19:46:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4683e088879e66d092dd4225dabb352f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>x_cabs4_smart_appr_case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>ticket_configuration_4683e088879e66d092dd4225dabb352f</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-20 12:37:21</sys_updated_on>
+        <table>x_cabs4_smart_appr_case</table>
+    </ticket_configuration>
+</record_update>

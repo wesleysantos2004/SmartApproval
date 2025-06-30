@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>breadcrumbs-container</class_name>
+        <container_class_name/>
+        <name>Standard Ticket - J&amp;J - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="standard_ticket_j_j">da0c26a487562ed092dd4225dabb3510</sp_page>
+        <subheader>true</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 18:59:52</sys_created_on>
+        <sys_id>9e0c26a487562ed092dd4225dabb35f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Standard Ticket - J&amp;J - Container 2</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sp_container_9e0c26a487562ed092dd4225dabb35f4</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:01:11</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</application>
+        <file_path/>
+        <instance_id>6546f998db2b33804d2bac44d496196c</instance_id>
+        <instance_name>capgeminibrasilsademo2</instance_name>
+        <name>sp_container_9e0c26a487562ed092dd4225dabb35f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>breadcrumbs-container</class_name><container_class_name/><name>Standard Ticket - J&amp;J - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="standard_ticket_j_j">da0c26a487562ed092dd4225dabb3510</sp_page><subheader>true</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>wesley.santos</sys_created_by><sys_created_on>2025-06-19 18:59:52</sys_created_on><sys_id>9e0c26a487562ed092dd4225dabb35f4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Standard Ticket - J&amp;J - Container 2</sys_name><sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package><sys_policy/><sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope><sys_update_name>sp_container_9e0c26a487562ed092dd4225dabb35f4</sys_update_name><sys_updated_by>wesley.santos</sys_updated_by><sys_updated_on>2025-06-19 19:01:11</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>722776430</payload_hash>
+        <record_name>Standard Ticket - J&amp;J - Container 2</record_name>
+        <reverted_from/>
+        <source>446cb6ef87066ad09ef340c6cebb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 19:01:11</sys_created_on>
+        <sys_id>6d5c6ae487562ed092dd4225dabb35b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1978991019f0000001</sys_recorded_at>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:01:11</sys_updated_on>
+        <type>Container</type>
+        <update_guid>615c6ae4f1562ed059db944a736532b8</update_guid>
+        <update_guid_history>615c6ae4f1562ed059db944a736532b8:722776430,5b4ce6e48b562ed0cbaff5cdf67f1fca:-772749651,d60c26a429562ed0238175af52538ff6:-349129807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Ticket - J&amp;J - Container 2">496c6ae487562ed092dd4225dabb35d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 19:01:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>be1b064a0b0047d694a97ef6562e7584</sys_id>
+        <sys_metadata>9e0c26a487562ed092dd4225dabb35f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Ticket - J&amp;J - Container 2</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_scope_delete display_value="">0336cc9e590544e4801ddd1be38f9d10</sys_scope_delete>
+        <sys_update_name>sp_container_9e0c26a487562ed092dd4225dabb35f4</sys_update_name>
+        <sys_update_version display_value="sp_container_9e0c26a487562ed092dd4225dabb35f4">6d5c6ae487562ed092dd4225dabb35b8</sys_update_version>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:01:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
