@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Smart Appr 1750172226670</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cabs4_smart_appr_1750172226670</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:57:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b412773870666d092dd4225dabb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Appr 1750172226670</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sys_app_module_9b412773870666d092dd4225dabb3514</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:57:09</sys_updated_on>
+        <timeline_page/>
+        <title>Smart Appr 1750172226670</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</application>
+        <file_path/>
+        <instance_id>6546f998db2b33804d2bac44d496196c</instance_id>
+        <instance_name>capgeminibrasilsademo2</instance_name>
+        <name>sys_app_module_9b412773870666d092dd4225dabb3514</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Smart Appr 1750172226670</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cabs4_smart_appr_1750172226670</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 14:57:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9b412773870666d092dd4225dabb3514</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Smart Appr 1750172226670</sys_name><sys_overrides/><sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package><sys_policy/><sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope><sys_update_name>sys_app_module_9b412773870666d092dd4225dabb3514</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 14:57:09</sys_updated_on><timeline_page/><title>Smart Appr 1750172226670</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1911994342</payload_hash>
+        <record_name>Smart Appr 1750172226670</record_name>
+        <reverted_from/>
+        <source>446cb6ef87066ad09ef340c6cebb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:57:09</sys_created_on>
+        <sys_id>27412773870666d092dd4225dabb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977e64df850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:57:09</sys_updated_on>
+        <type>Module</type>
+        <update_guid>974127736d0666d01dd6d14dc30fd124</update_guid>
+        <update_guid_history>974127736d0666d01dd6d14dc30fd124:1911994342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Smart Appr 1750172226670">b491ef73870666d092dd4225dabb35c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:58:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3541784a54d54ba28b3b12217bdab229</sys_id>
+        <sys_metadata>9b412773870666d092dd4225dabb3514</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Appr 1750172226670</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_scope_delete display_value="">0336cc9e590544e4801ddd1be38f9d10</sys_scope_delete>
+        <sys_update_name>sys_app_module_9b412773870666d092dd4225dabb3514</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9b412773870666d092dd4225dabb3514">27412773870666d092dd4225dabb3525</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:58:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

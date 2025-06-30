@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>question_text</element>
+        <id/>
+        <label>End date</label>
+        <language>EN</language>
+        <name>question</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-18 00:06:22</sys_created_on>
+        <sys_id>a80f1984879a6ed09ef340c6cebb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>End date</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sys_translated_a80f1984879a6ed09ef340c6cebb3552</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-18 00:06:22</sys_updated_on>
+        <value>End Date:</value>
+    </sys_translated>
+</record_update>

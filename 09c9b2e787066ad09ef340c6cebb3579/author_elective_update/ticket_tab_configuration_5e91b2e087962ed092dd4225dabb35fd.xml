@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ticket_tab_configuration">
+    <ticket_tab_configuration action="DELETE">
+        <advanced>false</advanced>
+        <order>40</order>
+        <parent display_value="x_cabs4_smart_appr_case">4683e088879e66d092dd4225dabb352f</parent>
+        <script><![CDATA[/**
+ * The script should evaluate true/false or `answer` populated with true/false which validates if a tab is visible 
+ * The `current` object refers to the current Task(extension) record 
+ **/ 
+]]></script>
+        <sys_class_name>ticket_tab_configuration</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 19:24:28</sys_created_on>
+        <sys_id>5e91b2e087962ed092dd4225dabb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>ticket_tab_configuration_5e91b2e087962ed092dd4225dabb35fd</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:24:28</sys_updated_on>
+        <tab_name>Associated Requests</tab_name>
+        <table>x_cabs4_smart_appr_case</table>
+        <type>associated_requests</type>
+        <visible/>
+        <widget/>
+        <widget_param/>
+    </ticket_tab_configuration>
+    <sys_translated_text action="DELETE" query="documentkey=5e91b2e087962ed092dd4225dabb35fd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</application>
+        <file_path/>
+        <instance_id>6546f998db2b33804d2bac44d496196c</instance_id>
+        <instance_name>capgeminibrasilsademo2</instance_name>
+        <name>ticket_tab_configuration_5e91b2e087962ed092dd4225dabb35fd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="ticket_tab_configuration"&gt;&lt;ticket_tab_configuration action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;order&gt;40&lt;/order&gt;&lt;parent display_value="x_cabs4_smart_appr_case"&gt;4683e088879e66d092dd4225dabb352f&lt;/parent&gt;&lt;script&gt;&lt;![CDATA[/**
+ * The script should evaluate true/false or `answer` populated with true/false which validates if a tab is visible 
+ * The `current` object refers to the current Task(extension) record 
+ **/ 
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;ticket_tab_configuration&lt;/sys_class_name&gt;&lt;sys_created_by&gt;wesley.santos&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-19 19:24:28&lt;/sys_created_on&gt;&lt;sys_id&gt;5e91b2e087962ed092dd4225dabb35fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Smart Approval" source="x_cabs4_smart_appr"&gt;09c9b2e787066ad09ef340c6cebb3579&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Smart Approval"&gt;09c9b2e787066ad09ef340c6cebb3579&lt;/sys_scope&gt;&lt;sys_update_name&gt;ticket_tab_configuration_5e91b2e087962ed092dd4225dabb35fd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;wesley.santos&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-19 19:24:28&lt;/sys_updated_on&gt;&lt;tab_name&gt;Associated Requests&lt;/tab_name&gt;&lt;table&gt;x_cabs4_smart_appr_case&lt;/table&gt;&lt;type&gt;associated_requests&lt;/type&gt;&lt;visible/&gt;&lt;widget/&gt;&lt;widget_param/&gt;&lt;/ticket_tab_configuration&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5e91b2e087962ed092dd4225dabb35fd"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1016422765</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>446cb6ef87066ad09ef340c6cebb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 19:24:28</sys_created_on>
+        <sys_id>72a13ae087962ed092dd4225dabb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19789a655980000001</sys_recorded_at>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:24:28</sys_updated_on>
+        <type>Tab Configuration</type>
+        <update_guid>36a13ae031962ed0fefeabb440945c85</update_guid>
+        <update_guid_history>36a13ae031962ed0fefeabb440945c85:1016422765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">14d1322487962ed092dd4225dabb35f7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 19:25:07</sys_created_on>
+        <sys_db_object display_value="" name="ticket_tab_configuration">ticket_tab_configuration</sys_db_object>
+        <sys_id>01614f7c08dd4e8891f06c72a9ed4ee4</sys_id>
+        <sys_metadata>5e91b2e087962ed092dd4225dabb35fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_scope_delete display_value="">0336cc9e590544e4801ddd1be38f9d10</sys_scope_delete>
+        <sys_update_name>ticket_tab_configuration_5e91b2e087962ed092dd4225dabb35fd</sys_update_name>
+        <sys_update_version display_value="ticket_tab_configuration_5e91b2e087962ed092dd4225dabb35fd">72a13ae087962ed092dd4225dabb3586</sys_update_version>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:25:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

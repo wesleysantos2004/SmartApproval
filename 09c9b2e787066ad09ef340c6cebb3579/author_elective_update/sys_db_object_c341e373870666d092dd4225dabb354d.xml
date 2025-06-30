@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_document_table>false</is_document_table>
+        <is_extendable>false</is_extendable>
+        <label>Smart Appr 1750172226670</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_cabs4_smart_appr_1750172226670</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">28d36eb5db313010414d692b13961922</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:57:07</sys_created_on>
+        <sys_id>c341e373870666d092dd4225dabb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Appr 1750172226670</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sys_db_object_c341e373870666d092dd4225dabb354d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:57:07</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</application>
+        <file_path/>
+        <instance_id>6546f998db2b33804d2bac44d496196c</instance_id>
+        <instance_name>capgeminibrasilsademo2</instance_name>
+        <name>sys_db_object_c341e373870666d092dd4225dabb354d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_document_table>false</is_document_table><is_extendable>false</is_extendable><label>Smart Appr 1750172226670</label><live_feed_enabled>false</live_feed_enabled><name>x_cabs4_smart_appr_1750172226670</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">28d36eb5db313010414d692b13961922</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 14:57:07</sys_created_on><sys_id>c341e373870666d092dd4225dabb354d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Smart Appr 1750172226670</sys_name><sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package><sys_policy/><sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope><sys_update_name>sys_db_object_c341e373870666d092dd4225dabb354d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 14:57:07</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>43157453</payload_hash>
+        <record_name>Smart Appr 1750172226670</record_name>
+        <reverted_from/>
+        <source>446cb6ef87066ad09ef340c6cebb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:57:08</sys_created_on>
+        <sys_id>5741e373870666d092dd4225dabb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977e64dc0c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:57:08</sys_updated_on>
+        <type>Table</type>
+        <update_guid>9b41e3738f0666d015313daa90b6e4d5</update_guid>
+        <update_guid_history>9b41e3738f0666d015313daa90b6e4d5:43157453</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:58:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>008d032682ad4e8e8000b5bf83fd2161</sys_id>
+        <sys_metadata>c341e373870666d092dd4225dabb354d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Appr 1750172226670</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_scope_delete display_value="">0336cc9e590544e4801ddd1be38f9d10</sys_scope_delete>
+        <sys_update_name>sys_db_object_c341e373870666d092dd4225dabb354d</sys_update_name>
+        <sys_update_version display_value="sys_db_object_c341e373870666d092dd4225dabb354d">5741e373870666d092dd4225dabb35d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:58:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

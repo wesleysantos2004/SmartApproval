@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <attributes/>
-        <audit>false</audit>
+        <audit>true</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
@@ -52,8 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
         <sys_update_name>sys_dictionary_x_cabs4_smart_appr_case_null</sys_update_name>
-        <sys_updated_by>wesley.santos</sys_updated_by>
-        <sys_updated_on>2025-06-16 17:29:08</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-18 13:35:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

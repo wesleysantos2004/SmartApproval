@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_route_map">
+    <sp_page_route_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>10</order>
+        <portals>2cff322f8706a2d092dd4225dabb35fb</portals>
+        <route_from_page display_value="csm_ticket">65285631c3a1120058879f2974d3aeed</route_from_page>
+        <route_to_page display_value="standard_ticket_j_j">da0c26a487562ed092dd4225dabb3510</route_to_page>
+        <short_description>Route J&amp;J - Standard ticket</short_description>
+        <sys_class_name>sp_page_route_map</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 19:10:41</sys_created_on>
+        <sys_id>493e6ee887562ed092dd4225dabb3576</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>65285631c3a1120058879f2974d3aeed</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sp_page_route_map_493e6ee887562ed092dd4225dabb3576</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:10:41</sys_updated_on>
+    </sp_page_route_map>
+</record_update>

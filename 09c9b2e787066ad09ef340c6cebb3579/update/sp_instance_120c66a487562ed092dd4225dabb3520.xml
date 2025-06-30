@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>empty</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1a0c66a487562ed092dd4225dabb351d</sp_column>
+        <sp_widget display_value="Standard Ticket Tab">d1cfa4ea131d0810da297ad66144b091</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 18:59:52</sys_created_on>
+        <sys_id>120c66a487562ed092dd4225dabb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sp_instance_120c66a487562ed092dd4225dabb3520</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 18:59:52</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=120c66a487562ed092dd4225dabb3520"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_cabs4_smart_appr.smart_approval_app</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>smart_approval_app</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-18 13:00:51</sys_created_on>
+        <sys_id>0f10985887922ad092dd4225dabb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cabs4_smart_appr.smart_approval_app</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sysevent_register_0f10985887922ad092dd4225dabb354a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-18 13:00:51</sys_updated_on>
+        <table>x_cabs4_smart_appr_case</table>
+    </sysevent_register>
+</record_update>

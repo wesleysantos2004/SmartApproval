@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_cabs4_smart_appr_case">state=1^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description><![CDATA[<p>Open</p>]]></description>
+        <label>Open</label>
+        <name>Open</name>
+        <order>100</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-29 23:47:25</sys_created_on>
+        <sys_id>348d43f3879e621092dd4225dabb3530</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sys_process_flow_348d43f3879e621092dd4225dabb3530</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-30 02:19:34</sys_updated_on>
+        <table>x_cabs4_smart_appr_case</table>
+    </sys_process_flow>
+</record_update>

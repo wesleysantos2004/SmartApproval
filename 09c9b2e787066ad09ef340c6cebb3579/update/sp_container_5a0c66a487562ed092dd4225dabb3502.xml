@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>breadcrumbs-container</class_name>
+        <container_class_name/>
+        <name>Standard Ticket - J&amp;J - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="standard_ticket_j_j">da0c26a487562ed092dd4225dabb3510</sp_page>
+        <subheader>true</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-19 18:59:52</sys_created_on>
+        <sys_id>5a0c66a487562ed092dd4225dabb3502</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Ticket - J&amp;J - Container 1</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sp_container_5a0c66a487562ed092dd4225dabb3502</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-19 19:01:01</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

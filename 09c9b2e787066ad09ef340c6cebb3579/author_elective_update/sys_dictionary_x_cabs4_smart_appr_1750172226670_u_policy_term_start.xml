@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_policy_term_start" table="x_cabs4_smart_appr_1750172226670">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Policy Term Start</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Policy Term Start</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_policy_term_start</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">glide_date</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_cabs4_smart_appr_1750172226670</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:57:07</sys_created_on>
+        <sys_id>4f41e373870666d092dd4225dabb35af</sys_id>
+        <sys_name>Policy Term Start</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>sys_dictionary_x_cabs4_smart_appr_1750172226670_u_policy_term_start</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:57:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</application>
+        <file_path/>
+        <instance_id>6546f998db2b33804d2bac44d496196c</instance_id>
+        <instance_name>capgeminibrasilsademo2</instance_name>
+        <name>sys_dictionary_x_cabs4_smart_appr_1750172226670_u_policy_term_start</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_policy_term_start" table="x_cabs4_smart_appr_1750172226670"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Policy Term Start</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Policy Term Start</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_policy_term_start</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_date</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_cabs4_smart_appr_1750172226670</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 14:57:07</sys_created_on><sys_id>4f41e373870666d092dd4225dabb35af</sys_id><sys_name>Policy Term Start</sys_name><sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package><sys_policy/><sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope><sys_update_name>sys_dictionary_x_cabs4_smart_appr_1750172226670_u_policy_term_start</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 14:57:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1705482584</payload_hash>
+        <record_name>Smart Appr 1750172226670.Policy Term Start</record_name>
+        <reverted_from/>
+        <source>446cb6ef87066ad09ef340c6cebb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:57:08</sys_created_on>
+        <sys_id>9741e373870666d092dd4225dabb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977e64dd2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:57:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>db41e373d70666d0cbdbdaf399f7e5f3</update_guid>
+        <update_guid_history>db41e373d70666d0cbdbdaf399f7e5f3:-1705482584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 14:58:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0bebaf211eb942f081e7b89ced275cc9</sys_id>
+        <sys_metadata>4f41e373870666d092dd4225dabb35af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Policy Term Start</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_parent display_value="">c341e373870666d092dd4225dabb354d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_scope_delete display_value="">0336cc9e590544e4801ddd1be38f9d10</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_cabs4_smart_appr_1750172226670_u_policy_term_start</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_cabs4_smart_appr_1750172226670_u_policy_term_start">9741e373870666d092dd4225dabb35f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 14:58:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

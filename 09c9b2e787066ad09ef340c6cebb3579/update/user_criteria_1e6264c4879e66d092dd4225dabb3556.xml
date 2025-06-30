@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group>8c4200cc871a66d092dd4225dabb3548,aed1cc8c871a66d092dd4225dabb3593,9e42c400875a66d092dd4225dabb35c8</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>Smart Application Users</name>
+        <role/>
+        <script/>
+        <short_description/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 19:42:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e6264c4879e66d092dd4225dabb3556</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Smart Application Users</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>user_criteria_1e6264c4879e66d092dd4225dabb3556</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-18 16:36:46</sys_updated_on>
+        <user/>
+    </user_criteria>
+</record_update>

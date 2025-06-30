@@ -1,3 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b37abe6b87066ad09ef340c6cebb3543" extends="task" label="CASE" max_length="40" name="x_cabs4_smart_appr_case" type="collection"/>
+    <element audit="true" db_object_id="b37abe6b87066ad09ef340c6cebb3543" extends="task" label="Case" max_length="40" name="x_cabs4_smart_appr_case" type="collection">
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Approval Type" max_length="40" name="approval_type" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Special discount" language="EN" sequence="0" value="special_discount"/>
+                <element inactive_on_update="false" label="Launch" language="EN" sequence="3" value="launch"/>
+                <element inactive_on_update="false" label="Others" language="EN" sequence="1" value="others"/>
+                <element inactive_on_update="false" label="Campaigns" language="EN" sequence="2" value="campaigns"/>
+                <element inactive_on_update="false" label="Discount range" language="EN" sequence="4" value="discount_range"/>
+            </choice>
+        </element>
+        <element audit="true" label="Country" max_length="32" name="country" read_only="true" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" label="End date" max_length="40" name="end_date" read_only="true" type="glide_date"/>
+        <element audit="true" label="Approval Group" max_length="32" name="approval_group" read_only="true" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" label="Net Sales" max_length="40" name="net_sales" read_only="true" type="string"/>
+        <element audit="true" label="Insert the Finacial Analysis of the New Commercial Policy" max_length="40" name="finance_analysis" read_only="true" type="html"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Sub Cluster" max_length="40" name="sub_cluster" type="string">
+            <choice>
+                <element inactive_on_update="false" label="High" language="EN" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="Low" language="EN" sequence="2" value="low"/>
+                <element inactive_on_update="false" label="Medium" language="EN" sequence="1" value="medium"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" audit="true" label="Start date" max_length="40" name="start_date" read_only="true" type="glide_date"/>
+        <element audit="true" label="Team members" max_length="32" name="team_members" read_only="true" reference="sys_user" type="reference"/>
+        <element audit="true" label="Attachments Finance" max_length="40" name="attachments_finance" read_only="true" type="file_attachment"/>
+        <element audit="true" label="General Rules" max_length="40" name="context" read_only="true" type="html"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Account" max_length="40" name="account" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Unimed" language="EN" sequence="0" value="unimed"/>
+                <element inactive_on_update="false" label="Bradesco Seguro" language="EN" sequence="2" value="bradesco_seguro"/>
+                <element inactive_on_update="false" label="Amil" language="EN" sequence="1" value="amil"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Policy Information" max_length="40" name="policy_information" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Additional policy" language="EN" sequence="0" value="additional_policy"/>
+                <element inactive_on_update="false" label="Replacement to active policy" language="EN" sequence="1" value="replacement_to_active_policy"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" audit="true" label="Objective" max_length="4000" name="objective" read_only="true" type="string"/>
+        <element audit="true" label="Attachment Kickoff" max_length="40" name="attachment_kickoff" read_only="true" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" label="Commercial policy name" max_length="40" name="commercial_policy_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" label="Total Invested" max_length="40" name="total_invested" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="3" default="Pending Approval" label="Case Status" max_length="40" name="case_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="0" value="pending_approval"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="pending"/>
+                <element inactive_on_update="false" label="Resolved" sequence="7" value="resolved"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Open" sequence="5" value="open"/>
+                <element inactive_on_update="false" label="InProgress" sequence="6" value="inprogress"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+            </choice>
+        </element>
+        <element audit="true" label="Context" max_length="40" name="context_commercial" read_only="true" type="html"/>
+        <element audit="true" label="Attachments Proposal" max_length="40" name="attachments" read_only="true" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Commercial Policy Type" max_length="40" name="commercial_policy_type" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Account" language="EN" sequence="1" value="account"/>
+                <element inactive_on_update="false" label="Cluster" language="EN" sequence="0" value="cluster"/>
+            </choice>
+        </element>
+        <element audit="true" label="Approval User" max_length="32" name="approval_user" reference="sys_user" type="reference"/>
+    </element>
 </database>

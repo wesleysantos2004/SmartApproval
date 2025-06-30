@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="request_filter">
+    <request_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>10</applies_to>
+        <data_item/>
+        <filter/>
+        <group/>
+        <item_stream/>
+        <last_used/>
+        <mobile>false</mobile>
+        <portal_page display_value="my_requests">4ab7a3a5875023000f220cf888cb0bec</portal_page>
+        <primary_display>number</primary_display>
+        <roles/>
+        <secondary_display>number,short_description,state</secondary_display>
+        <short_description/>
+        <sys_class_name>request_filter</sys_class_name>
+        <sys_created_by>wesley.santos</sys_created_by>
+        <sys_created_on>2025-06-30 02:41:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16053bb78716a21092dd4225dabb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Approval</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>request_filter_16053bb78716a21092dd4225dabb3536</sys_update_name>
+        <sys_updated_by>wesley.santos</sys_updated_by>
+        <sys_updated_on>2025-06-30 02:41:31</sys_updated_on>
+        <table>x_cabs4_smart_appr_case</table>
+        <table_name/>
+        <title>Smart Approval</title>
+        <user/>
+    </request_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=16053bb78716a21092dd4225dabb3536"/>
+</record_update>

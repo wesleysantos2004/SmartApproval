@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy">
+    <m2m_sp_portal_taxonomy action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sp_portal display_value="Smart Approval JJ">2cff322f8706a2d092dd4225dabb35fb</sp_portal>
+        <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 18:25:36</sys_created_on>
+        <sys_id>9f6783238786a2d092dd4225dabb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Approval JJ.Employee</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_update_name>m2m_sp_portal_taxonomy_9f6783238786a2d092dd4225dabb35ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:25:36</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+    </m2m_sp_portal_taxonomy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</application>
+        <file_path/>
+        <instance_id>6546f998db2b33804d2bac44d496196c</instance_id>
+        <instance_name>capgeminibrasilsademo2</instance_name>
+        <name>m2m_sp_portal_taxonomy_9f6783238786a2d092dd4225dabb35ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy"><m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sp_portal display_value="Smart Approval JJ">2cff322f8706a2d092dd4225dabb35fb</sp_portal><sys_class_name>m2m_sp_portal_taxonomy</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-16 18:25:36</sys_created_on><sys_id>9f6783238786a2d092dd4225dabb35ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Smart Approval JJ.Employee</sys_name><sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package><sys_policy/><sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope><sys_update_name>m2m_sp_portal_taxonomy_9f6783238786a2d092dd4225dabb35ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-16 18:25:36</sys_updated_on><taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy></m2m_sp_portal_taxonomy></record_update>]]></payload>
+        <payload_hash>1723902871</payload_hash>
+        <record_name>Smart Approval JJ.Employee</record_name>
+        <reverted_from/>
+        <source>446cb6ef87066ad09ef340c6cebb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 18:25:36</sys_created_on>
+        <sys_id>df67c3238786a2d092dd4225dabb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19779fd5c470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:25:36</sys_updated_on>
+        <type>Portal Taxonomy</type>
+        <update_guid>9f678323cb86a2d009608eb09b470acd</update_guid>
+        <update_guid_history>9f678323cb86a2d009608eb09b470acd:1723902871</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Smart Approval JJ.Employee">448747238786a2d092dd4225dabb3521</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 18:25:56</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_taxonomy">m2m_sp_portal_taxonomy</sys_db_object>
+        <sys_id>34e66eee93eb44d4b062e7bb2f817904</sys_id>
+        <sys_metadata>9f6783238786a2d092dd4225dabb35ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Approval JJ.Employee</sys_name>
+        <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+        <sys_scope_delete display_value="">0336cc9e590544e4801ddd1be38f9d10</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_taxonomy_9f6783238786a2d092dd4225dabb35ca</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_taxonomy_9f6783238786a2d092dd4225dabb35ca">df67c3238786a2d092dd4225dabb3563</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:25:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

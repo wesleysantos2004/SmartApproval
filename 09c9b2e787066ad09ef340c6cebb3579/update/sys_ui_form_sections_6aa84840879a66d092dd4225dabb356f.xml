@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6aa84840879a66d092dd4225dabb356f" sys_domain="global" table="x_cabs4_smart_appr_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>wesley.santos</sys_created_by>
+            <sys_created_on>2025-06-29 23:53:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>884fcfb7879e621092dd4225dabb3580</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cabs4_smart_appr_case" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">6aa84840879a66d092dd4225dabb356f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">844f8fb7879e621092dd4225dabb35f4</sys_ui_section>
+            <sys_updated_by>wesley.santos</sys_updated_by>
+            <sys_updated_on>2025-06-29 23:53:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-17 17:49:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ea84840879a66d092dd4225dabb3573</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cabs4_smart_appr_case" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">6aa84840879a66d092dd4225dabb356f</sys_ui_form>
+            <sys_ui_section caption="Ticket  Information" display_value="Ticket  Information" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">aea84840879a66d092dd4225dabb3571</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-17 17:49:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>eliaquim.santos@capgemini.com</sys_created_by>
+            <sys_created_on>2025-06-18 20:42:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ed971dc87da22149ef340c6cebb355f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cabs4_smart_appr_case" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">6aa84840879a66d092dd4225dabb356f</sys_ui_form>
+            <sys_ui_section caption="Resolution Notes" display_value="Resolution Notes" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">b2d931dc87da22149ef340c6cebb3595</sys_ui_section>
+            <sys_updated_by>eliaquim.santos@capgemini.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 20:42:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-18 13:34:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b08981c87d22ad092dd4225dabb35e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cabs4_smart_appr_case" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">6aa84840879a66d092dd4225dabb356f</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_cabs4_smart_appr_case" sys_domain="global" view="Default view">4308981c87d22ad092dd4225dabb35e3</sys_ui_section>
+            <sys_updated_by>eliaquim.santos@capgemini.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 20:42:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cabs4_smart_appr_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-17 17:49:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aa84840879a66d092dd4225dabb356f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cabs4_smart_appr_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart Approval" source="x_cabs4_smart_appr">09c9b2e787066ad09ef340c6cebb3579</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Approval">09c9b2e787066ad09ef340c6cebb3579</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6aa84840879a66d092dd4225dabb356f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-17 17:49:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
